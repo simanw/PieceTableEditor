@@ -8,8 +8,14 @@ go 1.14
 ----
 ## Run
 
+### To run the demo
 ```bash
-cd editor_neeva/tests
+go run main.go
+```
+
+### To test
+```bash
+cd tests
 go test -bench=. -benchmem editor_test.go
 ```
 ---
