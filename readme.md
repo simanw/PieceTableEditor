@@ -19,6 +19,8 @@ cd tests
 go test -bench=. -benchmem editor_test.go
 ```
 ---
+## Implementation Overview
+![img/piecetable.jpg](img/piecetable.jpg)
 
 ## Bottleneck analysis
 
